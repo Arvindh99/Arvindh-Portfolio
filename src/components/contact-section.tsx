@@ -181,7 +181,7 @@ export function ContactSection() {
               scale: 1.02
             }} whileTap={{
               scale: 0.98
-            }} className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-500 \ntext-white font-medium rounded-lg transition-all shadow-sm hover:shadow-md">
+            }} className="inline-flex items-center px-6 py-3 bg-blue-500 hover:bg-blue-400 \\ntext-white font-medium rounded-lg transition-all shadow-sm hover:shadow-md">
                 View Upwork Profile
               </motion.a>
               <p className="text-sm text-slate-500 mt-3">
