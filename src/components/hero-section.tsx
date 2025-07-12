@@ -56,7 +56,7 @@ export function HeroSection() {
               <FolderOpen className="w-4 h-4" />
               View Projects
             </Button>
-            <Button variant="outline" onClick={() => scrollToSection("contact")} className="border border-primary text-primary px-6 py-4 rounded-lg hover:bg-primary hover:text-white transition-all font-medium flex items-center gap-2">
+            <Button variant="outline" onClick={() => scrollToSection("contact")} className="border border-primary px-6 py-4 rounded-lg hover:bg-primary transition-all font-medium flex items-center gap-2 text-blue-600">
               <Mail className="w-4 h-4" />
               Contact Me
             </Button>
