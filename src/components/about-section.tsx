@@ -27,7 +27,7 @@ export function AboutSection() {
       }} viewport={{
         once: true
       }} className="text-center mb-16">
-          <span className="inline-block mb-4 text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
+          <span className="inline-block mb-4 text-sm font-medium bg-primary/10 px-3 py-1 rounded-full text-blue-600">
             ABOUT ME
           </span>
           <h2 className="text-3xl font-bold text-slate-900 mb-3">
