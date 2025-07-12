@@ -77,7 +77,7 @@ export function AboutSection() {
               <h4 className="font-medium text-slate-800 mb-3">
                 Core Competencies
               </h4>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 bg-inherit">
                 {skills.map(skill => <motion.span key={skill} whileHover={{
                 scale: 1.05
               }} className="text-sm bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
