@@ -120,7 +120,7 @@ export function AboutSection() {
                         <h4 className="text-lg font-semibold text-slate-900">
                           {exp.title}
                         </h4>
-                        <p className="text-sm text-primary font-medium mb-2">
+                        <p className="text-sm font-medium mb-2 text-blue-600">
                           {exp.company} &mdash; {exp.duration}
                         </p>
                         <p className="text-sm text-slate-600 text-justify">
