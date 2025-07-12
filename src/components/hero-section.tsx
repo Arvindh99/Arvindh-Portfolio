@@ -52,7 +52,7 @@ export function HeroSection() {
           </motion.p>
 
           <motion.div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-            <Button onClick={() => scrollToSection("projects")} className="bg-primary hover:bg-primary/90 text-white px-6 py-4 rounded-lg transition-all font-medium flex items-center gap-2">
+            <Button onClick={() => scrollToSection("projects")} className="text-white px-6 py-4 rounded-lg transition-all font-medium flex items-center gap-2 bg-blue-600 hover:bg-blue-500">
               <FolderOpen className="w-4 h-4" />
               View Projects
             </Button>
