@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Mail, FolderOpen } from "lucide-react";
-import Pi7_Image_Cropper from "@assets/Pi7-Image-Cropper.jpeg";
+import profileImage from "@/assets/profile.jpeg";
 
 export function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -26,7 +26,7 @@ export function HeroSection() {
         >
           <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-md border-4 border-primary/20">
             <img
-              src={Pi7_Image_Cropper}
+              src={profileImage}
               alt="Profile"
               className="w-full h-full object-cover"
             />
