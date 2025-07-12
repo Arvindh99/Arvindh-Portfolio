@@ -1,35 +1,21 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import { Navigation } from "@/components/navigation";
+import { HeroSection } from "@/components/hero-section";
+import { AboutSection } from "@/components/about-section";
+import { SkillsSection } from "@/components/skills-section";
+import { ProjectsSection } from "@/components/projects-section";
+import { ContactSection } from "@/components/contact-section";
+import { Footer } from "@/components/footer";
 
-const Index = () => {
+export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-slate-50">
       <Navigation />
-      <main>
-        <section id="home">
-          <Hero />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </main>
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
       <Footer />
     </div>
   );
-};
-
-export default Index;
+}
