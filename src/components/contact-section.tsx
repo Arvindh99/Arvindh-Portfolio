@@ -131,7 +131,7 @@ export function ContactSection() {
               }].map((social, index) => <motion.a key={index} href={social.href} target="_blank" rel="noopener noreferrer" whileHover={{
                 y: -3
               }} className="flex flex-col items-center group">
-                    <div className="w-12 h-12 bg-slate-100 group-hover:bg-primary rounded-lg flex items-center justify-center transition-all duration-200 mb-1">
+                    <div className="w-12 h-12 text-primary group-hover:text-white rounded-lg flex items-center justify-center transition-all duration-200 mb-1 bg-blue-600">
                       <div className="group-hover:text-white text-slate-600 transition-colors">
                         {social.icon}
                       </div>
