@@ -43,7 +43,7 @@ export function HeroSection() {
           </motion.span>
 
           <motion.h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Data Analyst & <span className="text-sky-600">Insight</span> Architect
+            Data Analyst & <span className="text-blue-600">Insight</span> Architect
           </motion.h1>
 
           <motion.p className="text-base text-gray-600 mb-6 max-w-md">
