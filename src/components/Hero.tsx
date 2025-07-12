@@ -1,29 +1,30 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Mail, Github, Linkedin, BarChart3 } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      >
+      <div className="absolute inset-0 z-0" style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-accent/80"></div>
       </div>
 
       {/* Floating Data Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-16 h-16 bg-accent/20 rounded-lg animate-float"></div>
-        <div className="absolute top-40 right-20 w-12 h-12 bg-data-teal/30 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 left-20 w-20 h-20 bg-tech-blue/20 rounded-lg animate-float" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-20 right-10 w-14 h-14 bg-accent/25 rounded-full animate-float" style={{ animationDelay: '0.5s' }}></div>
+        <div className="absolute top-40 right-20 w-12 h-12 bg-data-teal/30 rounded-full animate-float" style={{
+        animationDelay: '1s'
+      }}></div>
+        <div className="absolute bottom-32 left-20 w-20 h-20 bg-tech-blue/20 rounded-lg animate-float" style={{
+        animationDelay: '2s'
+      }}></div>
+        <div className="absolute bottom-20 right-10 w-14 h-14 bg-accent/25 rounded-full animate-float" style={{
+        animationDelay: '0.5s'
+      }}></div>
       </div>
 
       {/* Main Content */}
@@ -33,9 +34,7 @@ const Hero = () => {
             <BarChart3 className="w-16 h-16 text-accent mr-4" />
             <div className="h-16 w-1 bg-accent"></div>
             <div className="ml-4">
-              <h1 className="text-6xl md:text-7xl font-bold text-primary-foreground mb-2">
-                Sarah Chen
-              </h1>
+              <h1 className="text-6xl md:text-7xl font-bold text-primary-foreground mb-2">Arvindh</h1>
               <div className="text-xl md:text-2xl text-accent font-semibold">
                 Data Analyst & Insights Specialist
               </div>
@@ -81,8 +80,6 @@ const Hero = () => {
           <ArrowDown className="w-5 h-5 animate-bounce" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
