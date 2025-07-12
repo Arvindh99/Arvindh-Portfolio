@@ -39,11 +39,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transforming complex data into actionable insights through advanced analytics, 
-            visualization, and strategic thinking. Passionate about uncovering stories 
-            hidden in numbers and driving data-driven decision making.
-          </p>
+          <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">I transform complex data into clear, actionable insights that drive business decisions. Specializing in data visualization, statistical analysis, and predictive modeling.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button className="btn-hero">
