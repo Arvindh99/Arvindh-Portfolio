@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Mail, FolderOpen } from "lucide-react";
-import profileImage from "@/assets/profile.jpeg";
+const profileImage = "/lovable-uploads/8b29d822-88eb-44b3-98bb-5259308b0b56.png";
 export function HeroSection() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
