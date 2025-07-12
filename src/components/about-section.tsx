@@ -87,7 +87,7 @@ export function AboutSection() {
             </div>
 
             {/* Social Links */}
-            <div className="flex gap-3 pt-[4px] pb-[4px] pl-[175px] pr-[175px] px-[90px]">
+            <div className="flex gap-3 pt-[4px] pb-[4px] pl-[175px] pr-[175px] px-[125px]">
               <SocialIcon icon={<Linkedin size={18} className="mx-0 my-0 py-0" />} href="https://www.linkedin.com/in/arvindh22199" label="LinkedIn" />
               <SocialIcon icon={<Github size={18} />} href="https://github.com/Arvindh99" label="GitHub" />
               <SocialIcon icon={<Mail size={18} />} href="mailto:cvarvindh@gmail.com" label="Email" />
