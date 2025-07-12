@@ -38,7 +38,7 @@ export function HeroSection() {
       }} transition={{
         duration: 0.6
       }} className="text-center md:text-left">
-          <motion.span className="inline-block mb-3 text-xl font-medium bg-primary/10 px-3 py-1 rounded-full text-sky-600">
+          <motion.span className="inline-block mb-3 text-xl font-medium bg-primary/10 px-3 py-1 rounded-full text-blue-600">
             👋 Hello, I'm Arvindh
           </motion.span>
 
