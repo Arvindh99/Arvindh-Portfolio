@@ -80,7 +80,7 @@ export function AboutSection() {
               <div className="flex flex-wrap gap-2 bg-inherit">
                 {skills.map(skill => <motion.span key={skill} whileHover={{
                 scale: 1.05
-              }} className="text-sm bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+              }} className="text-sm bg-primary/10 px-3 py-1.5 rounded-full font-medium text-blue-600">
                     {skill}
                   </motion.span>)}
               </div>
