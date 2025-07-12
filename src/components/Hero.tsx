@@ -35,9 +35,7 @@ const Hero = () => {
             <div className="h-16 w-1 bg-accent"></div>
             <div className="ml-4">
               <h1 className="text-6xl md:text-7xl font-bold text-primary-foreground mb-2">Arvindh</h1>
-              <div className="text-xl md:text-2xl text-accent font-semibold">
-                Data Analyst & Insights Specialist
-              </div>
+              <div className="text-xl md:text-2xl text-accent font-semibold">Data Analyst & Insights Architect</div>
             </div>
           </div>
           
