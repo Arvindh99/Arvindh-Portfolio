@@ -150,7 +150,7 @@ function SocialIcon({
   return <motion.a href={href} target="_blank" rel="noopener noreferrer" whileHover={{
     y: -2
   }} className="flex flex-col items-center group">
-      <div className="w-12 h-12 bg-blue-50 group-hover:bg-primary text-primary group-hover:text-white rounded-lg flex items-center justify-center transition-all duration-200 mb-1">
+      <div className="w-12 h-12 text-primary group-hover:text-white rounded-lg flex items-center justify-center transition-all duration-200 mb-1 bg-slate-600">
         {icon}
       </div>
       <span className="text-xs text-slate-500 group-hover:text-primary transition-colors">
