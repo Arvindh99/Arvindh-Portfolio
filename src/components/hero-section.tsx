@@ -46,7 +46,7 @@ export function HeroSection() {
             Data Analyst & <span className="text-blue-600">Insight</span> Architect
           </motion.h1>
 
-          <motion.p className="text-base text-gray-600 mb-6 max-w-md">
+          <motion.p className="text-base text-gray-600 mb-6 max-w-md text-justify">
             I transform complex data into clear, actionable insights that drive business decisions. 
             Specializing in data visualization, statistical analysis, and predictive modeling.
           </motion.p>
