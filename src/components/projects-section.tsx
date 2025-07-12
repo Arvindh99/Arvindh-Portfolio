@@ -131,7 +131,7 @@ export function ProjectsSection() {
         delay: 0.4
       }} className="text-center mt-12">
           <Link href="/projects">
-            <Button className="group px-6 py-3 bg-primary hover:bg-primary/90 text-white font-medium rounded-lg transition-all shadow-sm hover:shadow-md">
+            <Button className="group px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-lg transition-all shadow-sm hover:shadow-md">
               View All Projects
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
