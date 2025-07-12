@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Mail, FolderOpen } from "lucide-react";
-
 const profileImage = "/lovable-uploads/8b29d822-88eb-44b3-98bb-5259308b0b56.png";
-
 export function HeroSection() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -13,30 +11,34 @@ export function HeroSection() {
       });
     }
   };
-
-  return (
-    <section id="home" className="relative min-h-screen bg-gradient-to-br from-white to-blue-50 pt-20 flex items-center justify-center">
+  return <section id="home" className="relative min-h-screen bg-gradient-to-br from-white to-blue-50 pt-20 flex items-center justify-center">
       <div className="max-w-6xl w-full px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 
         {/* Left: Image */}
-        <motion.div
-          initial={{ opacity: 0, x: -30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          className="flex justify-center"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        x: -30
+      }} animate={{
+        opacity: 1,
+        x: 0
+      }} transition={{
+        duration: 0.6
+      }} className="flex justify-center">
           <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-md border-4 border-primary/20">
             <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
           </div>
         </motion.div>
 
         {/* Right: Text & Buttons */}
-        <motion.div
-          initial={{ opacity: 0, x: 30 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center md:text-left"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        x: 30
+      }} animate={{
+        opacity: 1,
+        x: 0
+      }} transition={{
+        duration: 0.6
+      }} className="text-center md:text-left">
           <motion.span className="inline-block mb-3 text-xl font-medium bg-primary/10 px-3 py-1 rounded-full text-blue-600">
             👋 Hello, I'm Arvindh
           </motion.span>
@@ -55,22 +57,17 @@ export function HeroSection() {
               <FolderOpen className="w-4 h-4" />
               View Projects
             </Button>
-            <Button
-              variant="outline"
-              onClick={() => scrollToSection("contact")}
-              className="border border-primary px-6 py-4 rounded-lg hover:bg-primary transition-all font-medium flex items-center gap-2 text-blue-600"
-            >
+            <Button variant="outline" onClick={() => scrollToSection("contact")} className="border border-primary px-6 py-4 rounded-lg hover:bg-primary transition-all font-medium flex items-center gap-2 text-blue-600">
               <Mail className="w-4 h-4" />
               Contact Me
             </Button>
           </motion.div>
 
           {/* New line: Currently learning */}
-          <p className="mt-4 text-sm text-gray-500">
-            📘 Currently learning: <span className="font-medium text-gray-700">HTML, CSS, React</span>
+          <p className="mt-4 text-base text-black">
+            📘 Currently learning: <span className="font-medium text-slate-950">HTML, CSS, React</span>
           </p>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>;
 }
