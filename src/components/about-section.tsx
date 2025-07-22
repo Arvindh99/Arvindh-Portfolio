@@ -57,12 +57,8 @@ export function AboutSection() {
                 Data Analyst | Insight Architect
               </h3>
               <div className="space-y-4">
-                <p className="text-slate-600 text-[15px]">
-                  I'm a passionate analyst with 4+ years of experience across
-                  global tech environments. With a background in Health Data
-                  Science and Business Analytics, I turn numbers into narratives
-                  using tools like Python, SQL, Power BI, and machine learning.
-                </p>
+                <p className="text-slate-600 text-[15px] text-justify">I'm a passionate analyst with 4+ years of 
+experience across global tech environments. With a background in Health Data Science and Business Analytics, I turn numbers into narratives using tools like Python, SQL, Power BI, and machine learning.</p>
                 <p className="text-slate-600 text-[15px]">
                   My core strength lies in translating complex data into
                   actionable stories that drive strategy. From building scalable
