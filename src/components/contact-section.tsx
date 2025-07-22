@@ -119,7 +119,7 @@ export function ContactSection() {
             {/* Social Links */}
             <div className="pt-6 border-t border-slate-200">
               <h4 className="text-sm font-medium text-slate-500 mb-4">CONNECT WITH ME</h4>
-              <div className="flex gap-4 pl-[185px] pr-[185px] px-[60px]">
+              <div className="flex gap-4 pl-[185px] pr-[185px] px-0">
                 {[{
                 icon: <Linkedin className="w-5 h-5" />,
                 href: "https://www.linkedin.com/in/arvindh22199",
