@@ -65,13 +65,21 @@ const allProjects = [
     githubUrl: "https://github.com/Arvindh99/Disease-Symptoms-EDA-ML",
     date: "2023"
   },
-    {
-      title: "Demonstrating Innovative Charts in Excel",
-      description: "This Excel dashboard provides a comprehensive view of COVID-19 statistics for different countries/regions.",
-      technologies: ["Microsoft Excel"],
-      githubUrl: "https://github.com/Arvindh99/COVID-19-Dashboard",
-      date: "2023"
-    },
+  {
+    title: "Demonstrating Innovative Charts in Excel",
+    description: "This Excel dashboard provides a comprehensive view of COVID-19 statistics for different countries/regions.",
+    technologies: ["Microsoft Excel"],
+    githubUrl: "https://github.com/Arvindh99/COVID-19-Dashboard",
+    date: "2023"
+  },
+  {
+    title: "TownCost - Community Cost of Living Tracker",
+    description: "TownCost is a community-driven cost-of-living tracking web application that helps users track their personal expenses, understand average cost of living by country, state and city based on real user-submitted data. The platform aggregates anonymized expense data and provides insights only when enough users contribute, ensuring privacy and reliability. Fully vibe coded.",
+    technologies: ["React", "Vite", "TypeScript", "Shadcn UI", "Tailwind CSS", "Supabase", "Vercel", "Hostinger"],
+    githubUrl: "https://github.com/Arvindh99/TownCost",
+    liveUrl: "https://towncost.in/",
+    date: "2025"
+  }
 ];
 
 const techColors: { [key: string]: string } = {
@@ -83,6 +91,14 @@ const techColors: { [key: string]: string } = {
   SQL: "bg-yellow-100 text-yellow-800",
   "PDF Extraction": "bg-indigo-100 text-indigo-800",
   Tableau: "bg-cyan-100 text-cyan-800",
+  React: "bg-blue-100 text-blue-800",
+  Vite: "bg-purple-100 text-purple-800",
+  TypeScript: "bg-blue-100 text-blue-800",
+  "Shadcn UI": "bg-slate-100 text-slate-800",
+  "Tailwind CSS": "bg-cyan-100 text-cyan-800",
+  Supabase: "bg-green-100 text-green-800",
+  Vercel: "bg-slate-100 text-slate-800",
+  Hostinger: "bg-orange-100 text-orange-800",
 };
 
 export default function ProjectsPage() {
