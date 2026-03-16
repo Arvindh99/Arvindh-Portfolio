@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+
 const featuredProjects = [{
   title: "Electronic Health Record (EHR) Web Application",
   description: "A Streamlit-based web app for storing and managing patient health records with CRUD functionality.",
@@ -27,10 +28,9 @@ const featuredProjects = [{
   technologies: ["React", "TypeScript", "Supabase", "Vercel"],
   liveUrl: "https://towncost.in/",
   githubUrl: "https://github.com/Arvindh99/TownCost"
-}, {
-const techColors: {
-  [key: string]: string;
-} = {
+}];
+
+const techColors: { [key: string]: string } = {
   Python: "bg-blue-100 text-blue-800",
   Streamlit: "bg-green-100 text-green-800",
   "Generative AI": "bg-purple-100 text-purple-800",
@@ -38,8 +38,13 @@ const techColors: {
   SQL: "bg-yellow-100 text-yellow-800",
   "Data Visualization": "bg-cyan-100 text-cyan-800",
   "PDF Extraction": "bg-indigo-100 text-indigo-800",
-  Gradio: "bg-red-100 text-red-800"
+  Gradio: "bg-red-100 text-red-800",
+  React: "bg-blue-100 text-blue-800",
+  TypeScript: "bg-blue-100 text-blue-800",
+  Supabase: "bg-green-100 text-green-800",
+  Vercel: "bg-slate-100 text-slate-800",
 };
+
 export function ProjectsSection() {
   return <section id="projects" className="py-20 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
@@ -152,6 +157,7 @@ function CodeIcon({
     Streamlit: <span className="text-lg">📊</span>,
     "Power BI": <span className="text-lg">📈</span>,
     SQL: <span className="text-lg">🗃️</span>,
+    React: <span className="text-lg">⚛️</span>,
     default: <span className="text-lg">💻</span>
   };
   return iconMap[technology] || iconMap.default;
