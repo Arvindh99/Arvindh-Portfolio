@@ -22,12 +22,12 @@ const featuredProjects = [{
   liveUrl: "https://huggingface.co/spaces/Arvindh22/cricket-match-predictor",
   githubUrl: "https://github.com/Arvindh99/Test-Cricket-Match-Predictor"
 }, {
-  title: "Github Wrapped",
-  description: "GitHub Wrapped is a fun, interactive Streamlit app that showcases your GitHub stats in a stylish and engaging way. Just like the Spotify Wrapped, this app will visualize your GitHub activity for the year, highlighting your most important stats like followers, repositories, stars, commits, and more.",
-  technologies: ["Python", "Streamlit", "API"],
-  githubUrl: "https://github.com/Arvindh99/Github-Wrapped",
-  liveUrl: "https://codewrapped2024.streamlit.app/"
-}];
+  title: "TownCost - Community Cost of Living Tracker",
+  description: "TownCost is a community-driven cost-of-living tracking web application that helps users track their personal expenses, understand average cost of living by country, state and city based on real user-submitted data. Fully vibe coded.",
+  technologies: ["React", "TypeScript", "Supabase", "Vercel"],
+  liveUrl: "https://towncost.in/",
+  githubUrl: "https://github.com/Arvindh99/TownCost"
+}, {
 const techColors: {
   [key: string]: string;
 } = {
