@@ -91,6 +91,14 @@ const techColors: { [key: string]: string } = {
   SQL: "bg-yellow-100 text-yellow-800",
   "PDF Extraction": "bg-indigo-100 text-indigo-800",
   Tableau: "bg-cyan-100 text-cyan-800",
+  React: "bg-blue-100 text-blue-800",
+  Vite: "bg-purple-100 text-purple-800",
+  TypeScript: "bg-blue-100 text-blue-800",
+  "Shadcn UI": "bg-slate-100 text-slate-800",
+  "Tailwind CSS": "bg-cyan-100 text-cyan-800",
+  Supabase: "bg-green-100 text-green-800",
+  Vercel: "bg-slate-100 text-slate-800",
+  Hostinger: "bg-orange-100 text-orange-800",
 };
 
 export default function ProjectsPage() {
