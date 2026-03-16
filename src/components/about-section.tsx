@@ -1,7 +1,12 @@
 import { motion } from "framer-motion";
 import { Linkedin, Github, Mail, Phone } from "lucide-react";
 export function AboutSection() {
-  const experienceData = [{
+const experienceData = [{
+    title: "Data Analyst",
+    company: "Shifa National Medical Supplies",
+    duration: "Jul 2025 – Present",
+    description: "Responsible for designing, developing, and maintaining multiple Power BI dashboards to track and analyze KPIs and metrics related to national medical supplies in Bahrain. Utilized data from 122 Oracle database tables, creating complex relationships and data models to support accurate and actionable insights. Developed advanced DAX measures and Power Query transformations to enable dynamic reporting, trend analysis, and decision-making for stakeholders. Collaborate closely with cross-functional teams to ensure data integrity, enhance visualization effectiveness, and provide data-driven recommendations for operational improvements."
+  }, {
     title: "Senior Associate - Data Analytics",
     company: "Sutherland Global Services",
     duration: "Jun 2021 – May 2025",
