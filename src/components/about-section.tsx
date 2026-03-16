@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Linkedin, Github, Mail, Phone } from "lucide-react";
 export function AboutSection() {
-const experienceData = [{
+  const experienceData = [{
     title: "Data Analyst",
     company: "Shifa National Medical Supplies",
     duration: "Jul 2025 – Present",
@@ -79,7 +79,7 @@ experience across global tech environments. With a background in Health Data Sci
                 Core Competencies
               </h4>
               <div className="flex flex-wrap gap-2 bg-inherit">
-                {skills.map(skill => <motion.span key={skill} whileHover={{
+                {skills.map((skill) => <motion.span key={skill} whileHover={{
                 scale: 1.05
               }} className="text-sm bg-primary/10 px-3 py-1.5 rounded-full font-medium text-blue-600">
                     {skill}
@@ -88,7 +88,7 @@ experience across global tech environments. With a background in Health Data Sci
             </div>
 
             {/* Social Links */}
-            <div className="flex gap-3 justify-center md:justify-start py-2">
+            <div className="gap-3 justify-center py-2 flex items-center md:justify-center">
               <SocialIcon icon={<Linkedin size={18} className="mx-0 my-0 py-0" />} href="https://www.linkedin.com/in/arvindh22199" label="LinkedIn" />
               <SocialIcon icon={<Github size={18} />} href="https://github.com/Arvindh99" label="GitHub" />
               <SocialIcon icon={<Mail size={18} />} href="mailto:cvarvindh@gmail.com" label="Email" />
@@ -143,11 +143,11 @@ function SocialIcon({
   icon,
   href,
   label
-}: {
-  icon: JSX.Element;
-  href: string;
-  label: string;
-}) {
+
+
+
+
+}: {icon: JSX.Element;href: string;label: string;}) {
   return <motion.a href={href} target="_blank" rel="noopener noreferrer" whileHover={{
     y: -2
   }} className="flex flex-col items-center group">
