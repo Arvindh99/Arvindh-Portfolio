@@ -17,7 +17,7 @@ const allProjects = [
   technologies: ["Python", "Generative AI", "Streamlit", "SQL"],
   liveUrl: "https://chat2data.streamlit.app/",
   githubUrl: "https://github.com/Arvindh99/Chat2Data",
-  date: "2025"
+  date: "2026"
 },
 {
   title: "Cricket Test Match Predictor",
@@ -25,7 +25,7 @@ const allProjects = [
   technologies: ["Python", "Gradio", "Machine Learning"],
   liveUrl: "https://huggingface.co/spaces/Arvindh22/cricket-match-predictor",
   githubUrl: "https://github.com/Arvindh99/Test-Cricket-Match-Predictor",
-  date: "2025"
+  date: "2026"
 },
 {
   title: "Github Wrapped",
@@ -41,7 +41,7 @@ const allProjects = [
   technologies: ["Python", "Plotly", "Cosine Similarity", "Streamlit"],
   githubUrl: "https://github.com/Arvindh99/Online-Retail-CustomerData/tree/main",
   liveUrl: "https://online-retail-dashboard.streamlit.app/",
-  date: "2025"
+  date: "2026"
 },
 {
   title: "Pharmacy Inventory Dashboard",
@@ -49,7 +49,7 @@ const allProjects = [
   technologies: ["Python", "Streamlit", "Plotly"],
   githubUrl: "https://github.com/Arvindh99/Pharmacy-Inventory-Dashboard",
   liveUrl: "https://pharmacy-inventory.streamlit.app/",
-  date: "2025"
+  date: "2026"
 },
 {
   title: "Predicting Disease based on the Symptoms and identifying specialist based on predicted disease",
@@ -78,7 +78,7 @@ const allProjects = [
   technologies: ["React", "Vite", "TypeScript", "Shadcn UI", "Tailwind CSS", "Supabase", "Vercel", "Hostinger"],
   githubUrl: "https://github.com/Arvindh99/TownCost",
   liveUrl: "https://towncost.in/",
-  date: "2025"
+  date: "2026"
 }];
 
 
