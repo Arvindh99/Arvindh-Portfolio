@@ -65,7 +65,7 @@ export function HeroSection() {
 
           {/* New line: Currently learning */}
           <p className="mt-4 text-base text-black">
-            📘 Currently learning: <span className="font-medium text-slate-950">HTML, CSS, React</span>
+            📘 Currently learning: <span className="font-medium text-slate-950"></span>
           </p>
         </motion.div>
       </div>
