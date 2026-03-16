@@ -18,7 +18,7 @@ export function ContactSection() {
       name,
       value
     } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
       [name]: value
     }));
@@ -119,7 +119,7 @@ export function ContactSection() {
             {/* Social Links */}
             <div className="pt-6 border-t border-slate-200">
               <h4 className="text-sm font-medium text-slate-500 mb-4">CONNECT WITH ME</h4>
-              <div className="flex gap-4 pl-[185px] pr-[185px] px-0">
+              <div className="gap-4 pl-[185px] pr-[185px] px-0 flex items-center justify-start">
                 {[{
                 icon: <Linkedin className="w-5 h-5" />,
                 href: "https://www.linkedin.com/in/arvindh22199",
@@ -131,7 +131,7 @@ export function ContactSection() {
               }].map((social, index) => <motion.a key={index} href={social.href} target="_blank" rel="noopener noreferrer" whileHover={{
                 y: -3
               }} className="flex flex-col items-center group">
-                    <div className="w-12 h-12 text-primary group-hover:text-white rounded-lg flex items-center justify-center transition-all duration-200 mb-1 bg-blue-600">
+                    <div className="w-12 h-12 text-primary group-hover:text-white rounded-lg transition-all duration-200 mb-1 bg-blue-600 flex items-center justify-center">
                       <div className="group-hover:text-white text-slate-600 transition-colors">
                         {social.icon}
                       </div>
